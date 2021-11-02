@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-image: url(greypieces.jpg);
+            background-size: cover;
+            background-position: top center;
+        }
+        *{
+            
+            margin:0;
+            padding:0;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        nav{
+           
+            background: grey;
+            display: flex;
+            align-items: center;
+        }
+        nav ul li a{ 
+            color:#ffffff;
+            text-decoration: none;
+            
+            padding: 15px 50px ;
+            display: block;
+           
+        }
+
+        nav a:hover{ 
+             background: rgba(0,0,0,0.2)
+        }
+
+        nav ul{
+            display: flex;
+            list-style-type: none; /*ou list-style: none*/
+        }
+        header{
+            background: black;
+            color: white;
+            width: 400px;
+            margin: 30px auto ;
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgb(3, 197, 231);
+            border-radius: 60px;
+            padding: 10px 30px;
+            text-align:justify;
+            font-size: larger;
+            
+        }
+        header li{
+            margin: 2px 30px;
+            
+        }
+        header p{
+            margin: 10px 10px;
+        }
+        header h1{
+            text-align: center;
+        }
+        header h2{
+            text-align: center;
+        }
+         p a{
+            text-decoration: none;
+            color: white;
+
+        }
+         p a:hover{
+            background: grey;
+        }
+
+
+        .produtos{
+            
+            margin: 10px;
+            display: flex;
+        }
+
+        article{
+            padding: 10px;
+            margin: 30px auto;
+            background: black;
+            color: white;
+            border-radius: 60px;
+            color:white;
+            width: 27%;
+            
+            border-style: solid;
+            border-width: 3px;
+            border-color: rgb(3, 197, 231);
+            border-radius: 60px;
+            padding: 30px 30px;
+            text-align:justify;
+            font-size: larger;
+            
+            
+        }
+        article h3{
+            text-align: center;
+        }
+        article img{
+            width: 90%;
+            margin: 10px auto;
+            border-radius: 40%;
+        }
+        article div{
+            text-align: center;
+        }
+        footer{
+            width: 100%;
+            background:grey;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        fieldset{
+            padding: 3% 3%;
+        }
+        #enviar{
+            text-align: right;
+            
+            width: 30%;
+        }
+        #enviar button{
+            width:100%
+            
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <aside>
+        <nav>
+            <ul>
+                <li>
+                   <a href="#">Mutual</a> 
+                </li>
+                <li>
+                   <a href="#">Quem somos</a> 
+                </li>
+                <li>
+                    <a href="#">Depoimentos</a> 
+                 </li>
+                 <li>
+                    <a href="#">Fale conosco</a> 
+                 </li>
+            </ul>
+        </nav>
+    </aside>
+    <br>
+    <header>
+        <h1>Mutual</h1>
+        
+        <p> Mutual é uma start-up focada em fazer uma comunidade mais unida e melhor, por meio do compartilhamento de conhecimento mútuo. Use sua área de experiência para aconselhar e ajudar pessoas, e consiga ajuda nas áreas em que precisar. 
+            Somos profissionais de diversas áreas, como: 
+        </p>
+        <ul>
+            <li>  Educação básica e fundamental</li>
+            <li> Educação Financeira</li>
+            <li> Culinária</li>
+            <li> Jurídica</li>
+            <li> Mecânica</li>
+            <li> Marcenaria</li>
+            <li> E muitos outros.</li>
+            <p><b><a href="#">Quero saber mais!</a> </b></p>
+            <p><b><a href="#">Quero participar!</a> </b></p>
+        </ul>
+    </header>
+
+    <section >
+        <header>
+            <h2>
+                Serviços
+            </h2>
+        </header>
+        <div class = "produtos">
+            <article>
+                 <h3>
+                 Consultoria
+                </h3>
+                <p>
+                 Nunca se sinta desamparado. Se não é expert em alguma área e precisa de ajuda ou conselho para alguma situação específica e mais técnica, conte com nossa comunidade especialista em diversas áreas diferentes! 
+                 Escolha o profissional que desejar, consulte-o presencialmente, ou por videochamada ou chat, e avalie-os ao final da experiência.
+                </p>
+                <div><img src="consultoria.png" ></div>
+            </article>
+      
+            <article>
+                 <h3>
+                    Recompensas
+                 </h3>
+                <p>Ao ajudar outras pessoas, ganhe pontos e aumente sua reputação, além de receber benefícios que podem ser resgatados em empresas parceiras.</p>
+                <div><img src="reward.jpg" ></div>
+            </article>
+            <article>
+                <h3>
+                     Comunidade
+                </h3>
+                <p>Participe ativamente da comunidade e contribua para a construção de uma sociedade mais solidária.</p>
+                <p>Utilize o plano da Mutual que melhor se encaixa no que você precisa!</p>
+                <p><b><a href="#">Quero saber mais!</a> </b></p>
+                <p><b><a href="#">Quero participar!</a> </b></p>
+                <div><img src="community.jpeg" ></div>
+            </article>
+        </div>
+    </section>
+    <section>
+        <header>
+            <h2>
+                Equipe do Projeto
+            </h2>
+        </header>
+        <article>
+ 
+            <p>
+                O Mutual teve início em 2019, após um Projeto de Iniciação 
+                Científica envolvendo os cursos de Psicologia, Sociologia e 
+                Ciência da Computação da Universidade de ABCD. Hoje, conta com 
+                uma equipe de 3 sócios e outros 5 colaboradores apaixonados 
+                pelo projeto. 
+            </p>
+            
+        </article>
+       
+    </section>
+    <section>
+        <header>
+            <h2>
+                Newsletter
+            </h2>
+        </header>
+        <article>
+ 
+            <p>
+               Fique por dentro de tudo que acontece na Mutual!
+               Cadastre-se na nossa Newsletter:</p>
+            <form action="#" method="get" target="_blank" autocomplete="off">
+    
+              
+                <fieldset>
+                    <legend>Newsletter</legend>     
+                    
+                        <p>
+                            
+                            <label  for="nome">Nome completo:</label> 
+                            <input type="text" id="nome" name="nome" placeholder = "Seu nome..." value = "">
+                         
+                        </p>
+                        <p>
+                            <label for="des">Desejo receber informações sobre novidades e promoções da Mutual</label> 
+                            <input type="checkbox" id="des" value = "sim" checked>
+                        </p>
+                        <p>
+                            Gênero:
+                            <label for="feminino"> Feminino</label> 
+                            <input type="radio" id="feminino" name = "genero" value = "feminino">
+                            <!--esse value é o que vai chegar no backend!-->
+                            <!-- o ID é o que vai permitir a referência com o label-->
+                            <label for="masculino">Masculino</label> 
+                            <input type="radio" id="masculino" name = "genero" value = "masculino">
+                        </p>
+                        
+                        <p>
+                            <label for="email">E-mail:</label> 
+                            <input type="email" id="email" name="email" value = "" placeholder="ex.: email@email.com"> 
+                        </p>
+                        
+                </fieldset>
+                <div id = "enviar"><button  type = "submit">Enviar</button>
+                </div>
+                <!--como o botão do tipo submit está DENTRO do form,
+                ele serve para enviar os dados do formulário-->
+    
+            </form>
+               
+            
+        </article>
+       
+    </section>
+
+    <footer>
+        <p>Mutual Comunidade de Colaboradores </p>
+        <p>Brasília - DF</p>
+    </footer>
+    
+    
+</body>
+</html>
